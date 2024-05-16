@@ -11,6 +11,7 @@
   ],
   "require": {
     "php": "> 8",
-    "ext-dom": "*"
+    "ext-dom": "*",
+    "composer/installers": "*",
   }
 }
