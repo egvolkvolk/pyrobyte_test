@@ -7,10 +7,10 @@ use src\DataTypeStrategy\WriteToCsvStrategy;
 use src\DataTypeStrategy\WriteToJsonStrategy;
 use src\DataTypeStrategy\WriteToXmlStrategy;
 
-require_once ('src\DataTypeStrategy\WriteToCsvStrategy.php');
-require_once ('src\DataTypeStrategy\WriteToJsonStrategy.php');
-require_once ('src\DataTypeStrategy\WriteToXmlStrategy.php');
-require_once ('src\Data\Enum\DataTypeEnum.php');
+require_once ('DataTypeStrategy\WriteToCsvStrategy.php');
+require_once ('DataTypeStrategy\WriteToJsonStrategy.php');
+require_once ('DataTypeStrategy\WriteToXmlStrategy.php');
+require_once ('Data\Enum\DataTypeEnum.php');
 
 class ChooseStrategy
 {
