@@ -1,10 +1,7 @@
 <?php
-
 namespace src;
 
-
 use DataTypeEnum;
-use Exception;
 use src\DataTypeStrategy\Strategy;
 use src\DataTypeStrategy\WriteToCsvStrategy;
 use src\DataTypeStrategy\WriteToJsonStrategy;
@@ -17,6 +14,12 @@ require_once ('src\Data\Enum\DataTypeEnum.php');
 
 class ChooseStrategy
 {
+    /**
+     * Choose strategy for conversation
+     *
+     * @param string $dataType
+     * @return Strategy
+     */
     public function getStrategy(string $dataType): Strategy
     {
         return match($dataType) {
@@ -25,4 +28,5 @@ class ChooseStrategy
             DataTypeEnum::json->name => new WriteToJsonStrategy(),
         };
     }
+
 }

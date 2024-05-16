@@ -6,15 +6,23 @@ require_once ('Strategy.php');
 class WriteToCsvStrategy implements Strategy
 {
 
-    public function convert(array $data, string $directory)
+    /**
+     * Conversation into .csv
+     *
+     * @param array $data
+     * @param string $directory
+     * @return true
+     */
+    public function convert(array $data, string $directory): bool
     {
         $fileName = $directory.'/sitemap.csv';
-        $fileCsv = fopen($fileName, 'w'); //exseption
-        fputcsv($fileCsv, ['loc', 'lastmod', 'priority', 'changefreq'], ';');
+        $fileCsv = fopen($fileName, 'w');
+        fputcsv($fileCsv, ['loc', 'lastmod', 'priority', 'changefreq'], ';'); // write headers in file
         foreach ($data as $dataElement) {
             fputcsv($fileCsv, $dataElement, ';');
         }
         fclose($fileCsv);
+
         return true;
     }
 }

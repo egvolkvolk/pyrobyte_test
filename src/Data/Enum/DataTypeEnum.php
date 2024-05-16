@@ -1,5 +1,4 @@
 <?php
-
 enum DataTypeEnum
 {
     case xml;

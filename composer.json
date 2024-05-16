@@ -1,6 +1,14 @@
 {
+  "name": "egvolkvolk/smg",
+  "description": "Sitemap Generator",
+  "authors": [
+    {
+      "name": "Egor Volkov",
+      "email": "eg.volkvolK@yandex.ru"
+    }
+  ],
   "require": {
-    "ext-simplexml": "*",
+    "php": "> 8",
     "ext-dom": "*"
   }
 }

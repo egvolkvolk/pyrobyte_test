@@ -1,5 +1,4 @@
 <?php
-
 use src\SitemapGenerator;
 
 require 'src\SitemapGenerator.php';
@@ -35,8 +34,8 @@ $data = [
 
     $dataTypes = [
         'xml',
-        //'csv',
-        //'json',
+        'csv',
+        'json',
     ];
 
     $sitemapGenerator = new SitemapGenerator();

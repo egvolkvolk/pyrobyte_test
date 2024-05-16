@@ -7,6 +7,8 @@ class WriteToJsonStrategy implements Strategy
 {
 
     /**
+     * Conversation into .json
+     *
      * @param array $data
      * @param string $directory
      * @return true

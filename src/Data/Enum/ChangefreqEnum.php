@@ -1,5 +1,4 @@
 <?php
-
 enum ChangefreqEnum
 {
     case always;
@@ -9,4 +8,5 @@ enum ChangefreqEnum
     case monthly;
     case yearly;
     case never;
+
 }
