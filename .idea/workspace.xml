@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05fbca3c-fc79-4ce0-b6b6-7d7203fef9da" name="Changes" comment="add packagist">
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChooseStrategy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChooseStrategy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,8 @@
       <workItem from="1715841285344" duration="123000" />
       <workItem from="1715841680826" duration="191000" />
       <workItem from="1715842034543" duration="158000" />
-      <workItem from="1715869063206" duration="55000" />
+      <workItem from="1715869063206" duration="377000" />
+      <workItem from="1715870547112" duration="3435000" />
     </task>
     <task id="LOCAL-00001" summary="add packagist">
       <created>1715827732742</created>
