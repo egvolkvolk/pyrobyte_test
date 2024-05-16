@@ -88,70 +88,69 @@
 <h3>Result of the library</h3>
 
 <h4>CSV</h4>
-````
-loc;lastmod;priority;changefreq
-https://pyrobyte.ru/;2024-05-05;0.9;weekly
-https://pyrobyte.ru/cases;2024-04-03;0.5;monthly
-https://pyrobyte.ru/career;2024-02-24;0.3;yearly
-https://pyrobyte.ru/blog;2024-05-07;0.7;daily
-````
+
+    loc;lastmod;priority;changefreq
+    https://pyrobyte.ru/;2024-05-05;0.9;weekly
+    https://pyrobyte.ru/cases;2024-04-03;0.5;monthly
+    https://pyrobyte.ru/career;2024-02-24;0.3;yearly
+    https://pyrobyte.ru/blog;2024-05-07;0.7;daily
 
 <h4>JSON</h4>
-````[
-    {
+
+    [
+        {
         "loc": "https://pyrobyte.ru/",
         "lastmod": "2024-05-05",
         "priority": "0.9",
         "changefreq": "weekly"
-    },
-    {
+        },
+        {
         "loc": "https://pyrobyte.ru/cases",
         "lastmod": "2024-04-03",
         "priority": "0.5",
         "changefreq": "monthly"
-    },
-    {
+        },
+        {
         "loc": "https://pyrobyte.ru/career",
         "lastmod": "2024-02-24",
         "priority": "0.3",
         "changefreq": "yearly"
-    },
-    {
+        },
+        {
         "loc": "https://pyrobyte.ru/blog",
         "lastmod": "2024-05-07",
         "priority": "0.7",
         "changefreq": "daily"
-    }
-]
-````
+        }
+    ]
 
 <h4>XML</h4>
-````
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://pyrobyte.ru/</loc>
-    <lastmod>2024-05-05</lastmod>
-    <priority>0.9</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://pyrobyte.ru/cases</loc>
-    <lastmod>2024-04-03</lastmod>
-    <priority>0.5</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://pyrobyte.ru/career</loc>
-    <lastmod>2024-02-24</lastmod>
-    <priority>0.3</priority>
-    <changefreq>yearly</changefreq>
-  </url>
-  <url>
-    <loc>https://pyrobyte.ru/blog</loc>
-    <lastmod>2024-05-07</lastmod>
-    <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-  </url>
-</urlset>
-````
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://pyrobyte.ru/</loc>
+            <lastmod>2024-05-05</lastmod>
+            <priority>0.9</priority>
+            <changefreq>weekly</changefreq>
+        </url>
+        <url>
+            <loc>https://pyrobyte.ru/cases</loc>
+            <lastmod>2024-04-03</lastmod>
+            <priority>0.5</priority>
+            <changefreq>monthly</changefreq>
+        </url>
+        <url>
+            <loc>https://pyrobyte.ru/career</loc>
+            <lastmod>2024-02-24</lastmod>
+            <priority>0.3</priority>
+            <changefreq>yearly</changefreq>
+        </url>
+        <url>
+            <loc>https://pyrobyte.ru/blog</loc>
+            <lastmod>2024-05-07</lastmod>
+            <priority>0.7</priority>
+            <changefreq>daily</changefreq>
+        </url>
+    </urlset>
+
